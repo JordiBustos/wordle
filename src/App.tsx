@@ -57,6 +57,7 @@ function App() {
   return (
     <section>
       {isWin && <h1>You win!</h1>}
+      {(!isWin && currentRow > SECRET_WORD.length) && <h1>You lose!</h1>}
       {Array(SECRET_WORD.length + 1)
         .fill(0)
         .map((_, i) => {
