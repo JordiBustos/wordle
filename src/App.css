@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+.input {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10px;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.send-button {
+  width: 80%;
+  margin: 5rem auto;
+  display: block;
+  height: 5rem;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.cell {
+  border-radius: 10px;
+}
+.warning {
+  background-color: #ed6c02;
+}
+
+.error {
+  background-color: #d32f2f;
+}
+
+.success {
+  background-color: #2e7d32;
+}
